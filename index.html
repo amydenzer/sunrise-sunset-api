@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find sunrise and sunset times for any location">
+    <meta name="keywords" content="sunrise, sunset, times">
+
+    <title>Sunrise and Sunset Times</title>
+
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Sunrise and Sunset Times</h1>
+        <input type="text" id="latitude" placeholder="Enter latitude">
+        <input type="text" id="longitude" placeholder="Enter longitude">
+        <button type="button" name="button">Get Times</button>
+        <div class="result">
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
